@@ -50,7 +50,7 @@ function rectangle(z){
    
    
 }
-rectangle(159);
+//rectangle(159);
 
 function hexagon(size){
     
@@ -63,20 +63,19 @@ forward(size);
 right(60);z
 forward(size);
 right(60);
-forward(size
+forward(size);
 
 
 }
 
 
-    hexagon(120);
+    //hexagon(120);
 
-function shape
-(type, size)
+function shape (type, size)
 {
-    if (type=== 'rectangle')({rectangle(x)}
-    else if (type=== 'hexangon')({hexangon(size)}
+    if (type=== 'rectangle'){rectangle(size)}
+    else if (type=== 'hexagon'){hexagon(size)}
 }
 
-
+shape('rectangle',200);
 stamp();
