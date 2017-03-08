@@ -1,67 +1,82 @@
-TinyTurtle.apply(window, [undefined, 400, 400]);
+TinyTurtle.apply(window, [undefined, 550, 550]);
 
-function square(){
-forward(155);
+function square(b){
+forward(b);
 right(90);
-forward(155);
+forward(b);
 right(90);
-forward(155);
+forward(b);
 right(90);
-forward(155);
+forward(b);
 right(90);
-forward(155);
+forward(b);
 }
 
 // Type your function call below
 
-function triangle(){
+function triangle(a){
     right(60); 
-    forward(90);
+    forward(a);
     right(60);
-    forward(90);
+    forward(a);
     right(60);
-    right(90);
+    right(a);
     forward(150)
-    
+//    penup();
+    forward(a);
+//    pendown();
+    stamp();
 }
 function house(){
-    square();
-    triangle();
+    square(155);
+    triangle(90);
 }
-house();
+//house();
 
-function rectangle(){
-    forward(30);
+stamp();
+
+function rectangle(z){
+  
+    forward(78);
     left(90);
-    forward(60);
+    forward(z);
     left(90); 
-    forward(30);
+    forward(78);
     left(90);
-    forward(60);
+    forward(z);
     left(90);
-    
+    forward(159);
+ 
    
    
 }
-rectangle();
+rectangle(159);
 
-function pentagon(x){
-    left(45);
-    forward(x);
-    left(45);
-    forward(x);
-    left(45);
-    forward(x);
-    right(45);
-    forwward(x);
-    left(45);
-    forward(x);
-    right(45);
-    forward(x);
-    right(45);
-    forward(x);
+function hexagon(size){
     
+right(60);
+forward(size);
+right(60);
+forward(size);
+right(60);
+forward(size);
+right(60);z
+forward(size);
+right(60);
+forward(size
+
+
 }
-pentagon(60);
+
+
+    hexagon(120);
+
+function shape
+(type, size)
+{
+    if (type=== 'rectangle')({rectangle(x)}
+    else if (type=== 'hexangon')({hexangon(size)}
+}
+
 
 stamp();
